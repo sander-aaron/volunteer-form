@@ -31,25 +31,40 @@
 
             <div>
               <label for="name" class="not-bold">What should we call you?</label>
-              <input id="name" name="name" required>
+              <input id="prefered name" name="prefered name" required>
               <p>What all your friends call you, e.g. “Liz”.</p>
             </div>
 
-            <div>
+            <div class="push">
               <label for="date" class="not-bold">Date of birth</label>
               <input type="date" placeholder="yyyy-mm-dd" id="date" required>
             </div>
 
-            <div>
-              <label for="fitness">Physical fitness</label>
-              <select id="fitness" name="fitness">
-                <option>Super-human</option>
-                <option>Fit as a fiddle</option>
-                <option>Not terribly strong</option>
-                <option>A little couch-potato-y</option>
+            <div class="push">
+              <label for="tshirt">T-shirt size</label>
+              <select placeholder="Select a t-shirt size" id="tshirt" name="tshirt">
+                <option>Fitted: XS</option>
+                <option>Fitted: S</option>
+                <option>Fitted: M</option>
+                <option>Fitted: L</option>
+                <option>Fitted: XL</option>
+                <option>Straight-cut: XS</option>
+                <option>Straight-cut: S</option>
+                <option>Straight-cut: M</option>
+                <option>Straight-cut: L</option>
+                <option>Straight-cut: XL</option>
               </select>
             </div>
 
+            <div>
+              <label for="email" class="not-bold">Email</label>
+              <input id="email" type="email" name="email" required>
+            </div>
+
+            <div>
+              <label for="phone number" class="not-bold">Phone number (optional)</label>
+              <input id="phone number" type="phone number" name="phone number" required>
+            </div>
           </div>
         </fieldset>
       </form>
