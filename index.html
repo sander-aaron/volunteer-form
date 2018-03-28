@@ -19,14 +19,37 @@
         <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
       </div>
 
-      <form>
+      <form method="POST" action="https://formspree.io/sand0274@algonquinlive.com">
         <fieldset>
           <legend>Personal details</legend>
           <div>
             <div>
               <label for="name" class="not-bold">Full name</label>
               <input id="name" name="name" required>
+              <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
             </div>
+
+            <div>
+              <label for="name" class="not-bold">What should we call you?</label>
+              <input id="name" name="name" required>
+              <p>What all your friends call you, e.g. “Liz”.</p>
+            </div>
+
+            <div>
+              <label for="date" class="not-bold">Date of birth</label>
+              <input type="date" placeholder="yyyy-mm-dd" id="date" required>
+            </div>
+
+            <div>
+              <label for="fitness">Physical fitness</label>
+              <select id="fitness" name="fitness">
+                <option>Super-human</option>
+                <option>Fit as a fiddle</option>
+                <option>Not terribly strong</option>
+                <option>A little couch-potato-y</option>
+              </select>
+            </div>
+
           </div>
         </fieldset>
       </form>
