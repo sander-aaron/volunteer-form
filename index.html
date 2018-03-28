@@ -56,16 +56,55 @@
               </select>
             </div>
 
-            <div>
+            <div class="push">
               <label for="email" class="not-bold">Email</label>
               <input id="email" type="email" name="email" required>
             </div>
 
-            <div>
+            <div class="push">
               <label for="phone number" class="not-bold">Phone number (optional)</label>
               <input id="phone number" type="phone number" name="phone number" required>
             </div>
           </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Address</legend>
+          <div class="push">
+            <label for="address" class="not-bold">Street address</label>
+            <input id="address" type="address" name="address" required>
+          </div>
+
+          <div class="push">
+            <label for="city" class="not-bold">City</label>
+            <input id="city" type="city" name="city" required>
+          </div>
+
+          <div class="push">
+            <label for="province">Province</label>
+            <input id="province" list="province-list" required>
+            <datalist id="province-list">
+              <option value="Britsh Columbia">Britsh Columbia</option>
+              <option value="Alberta">Alberta</option>
+              <option value="Saskatchewan">Saskatchewan</option>
+              <option value="Manitoba">Manitoba</option>
+              <option value="Ontario">Ontario</option>
+              <option value="Québec">Québec</option>
+              <option value="New Brunswick">New Brunswick</option>
+              <option value="Newfoundland & Labrador">Newfoundland & Labrador</option>
+              <option value="Nova Scotia">Nova Scotia</option>
+              <option value="Prince Edward Island">Prince Edward Island</option>
+              <option value="Yukon">Yukon</option>
+              <option value="Northwest Territories">Northwest Territories</option>
+              <option value="Nunavut">Nunavut</option>
+            </datalist>
+          </div>
+
+          <div class="push">
+            <label for="postal code" class="not-bold">Postal Code</label>
+            <input id="postal code" type="postal code" name="postal code" required>
+          </div>
+
         </fieldset>
       </form>
     </div>
