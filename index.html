@@ -42,6 +42,7 @@
           <div class="push">
             <label for="tshirt">T-shirt size</label>
             <select id="tshirt" name="tshirt">
+              <option value="empty">Select a t-shirt size</option>
               <option>Fitted: XS</option>
               <option>Fitted: S</option>
               <option>Fitted: M</option>
@@ -108,114 +109,112 @@
 
         <fieldset>
           <legend>What activities are you interested in helping with?</legend>
+          <div class="push">
+            <input type="checkbox" id="digging" name="digging">
+            <label for="digging">Digging holes</label>
+
+            <input type="checkbox" id="dirty" name="dirty">
+            <label for="dirty">Getting dirty</label>
+
+            <input type="checkbox" id="lifting" name="lifting">
+            <label for="lifting">Lifting heavy objects</label>
+
+            <input type="checkbox" id="driving" name="driving">
+            <label for="driving">Driving people</label>
+
+            <input type="checkbox" id="transporting" name="transporting">
+            <label for="transporting">Transporting trees</label>
+
+            <input type="checkbox" id="photos" name="photos">
+            <label for="photos">Taking photos</label>
+
+            <input type="checkbox" id="publishing" name="publishing">
+            <label for="publishing">Online publishing</label>
+
+            <input type="checkbox" id="managing" name="managing">
+            <label for="managing">Managing people</label>
+          </div>
+
+          <legend>Do you have any experience with the following?</legend>
+          <div class="push">
+            <input type="checkbox" id="shovels" name="shovels">
+            <label for="shovels">Shovels</label>
+
+            <input type="checkbox" id="gps" name="gps">
+            <label for="gps">Hand-held GPS</label>
+
+            <input type="checkbox" id="writing" name="wrting">
+            <label for="writing">Writing & blogging</label>
+
+            <input type="checkbox" id="photography" name="photography">
+            <label for="photography">Photography</label>
+
+            <input type="checkbox" id="climbing" name="climbing">
+            <label for="climbing">Trail & hill climbing</label>
+
+            <input type="checkbox" id="bush" name="bush">
+            <label for="bush">Bush craft</label>
+
+            <input type="checkbox" id="atv" name="atv">
+            <label for="atv">ATVs</label>
+
+            <input type="checkbox" id="identification" name="identification">
+            <label for="identification">Plant identification</label>
+
+            <input type="checkbox" id="planning" name="planning">
+            <label for="planning">Special event planning</label>
+
+            <input type="checkbox" id="speaking" name="speaking">
+            <label for="speaking">Speaking to groups</label>
+          </div>
         </div>
-        <div class="push">
-          <input type="checkbox" id="digging" name="digging">
-          <label for="digging">Digging holes</label>
+      </fieldset>
 
-          <input type="checkbox" id="dirty" name="dirty">
-          <label for="dirty">Getting dirty</label>
+      <fieldset>
+        <legend>Do you have a valid driver’s license?</legend>
+      </div>
+      <div class="push">
+        <input type="checkbox" id="yes1" name="yes">
+        <label for="yes">Yes</label>
 
-          <input type="checkbox" id="lifting" name="lifting">
-          <label for="lifting">Lifting heavy objects</label>
+        <input type="checkbox" id="no1" name="no">
+        <label for="no">No</label>
+      </div>
 
-          <input type="checkbox" id="driving" name="driving">
-          <label for="driving">Driving people</label>
+      <legend>Do you have a pick-up truck you’d be willing to use?</legend>
+      <div class="push">
+        <input type="checkbox" id="yes2" name="yes">
+        <label for="yes">Yes</label>
 
-          <input type="checkbox" id="transporting" name="transporting">
-          <label for="transporting">Transporting trees</label>
+        <input type="checkbox" id="no2" name="no">
+        <label for="no">No</label>
+      </div>
 
-          <input type="checkbox" id="photos" name="photos">
-          <label for="photos">Taking photos</label>
+      <legend>Do you have up-to-date first-aid certification?</legend>
+      <div class="push">
+        <input type="checkbox" id="yes3" name="yes">
+        <label for="yes">Yes</label>
 
-          <input type="checkbox" id="publishing" name="publishing">
-          <label for="publishing">Online publishing</label>
+        <input type="checkbox" id="no3" name="no">
+        <label for="no">No</label>
+      </div>
+    </fieldset>
 
-          <input type="checkbox" id="managing" name="managing">
-          <label for="managing">Managing people</label>
-        </div>
-
-        <legend>Do you have any experience with the following?</legend>
-        <div class="push">
-          <input type="checkbox" id="shovels" name="shovels">
-          <label for="shovels">Shovels</label>
-
-          <input type="checkbox" id="gps" name="gps">
-          <label for="gps">Hand-held GPS</label>
-
-          <input type="checkbox" id="writing" name="wrting">
-          <label for="writing">Writing & blogging</label>
-
-          <input type="checkbox" id="photography" name="photography">
-          <label for="photography">Photography</label>
-
-          <input type="checkbox" id="climbing" name="climbing">
-          <label for="climbing">Trail & hill climbing</label>
-
-          <input type="checkbox" id="bush" name="bush">
-          <label for="bush">Bush craft</label>
-
-          <input type="checkbox" id="atv" name="atv">
-          <label for="atv">ATVs</label>
-
-          <input type="checkbox" id="identification" name="identification">
-          <label for="identification">Plant identification</label>
-
-          <input type="checkbox" id="planning" name="planning">
-          <label for="planning">Special event planning</label>
-
-          <input type="checkbox" id="speaking" name="speaking">
-          <label for="speaking">Speaking to groups</label>
+    <fieldset>
+      <div>
+        <legend>Please let us know any comments or questions you may have.</legend>
+        <div>
+          <textarea id="text" name="mission" required></textarea>
         </div>
       </div>
     </fieldset>
 
     <fieldset>
-      <legend>Do you have a valid driver’s license?</legend>
-    </div>
-    <div class="push">
-      <input type="checkbox" id="yes1" name="yes">
-      <label for="yes">Yes</label>
+      <button type="submit">Apply</button>
+    </fieldset>
+  </form>
 
-      <input type="checkbox" id="no1" name="no">
-      <label for="no">No</label>
-    </div>
-
-    <legend>Do you have a pick-up truck you’d be willing to use?</legend>
-    <div class="push">
-      <input type="checkbox" id="yes2" name="yes">
-      <label for="yes">Yes</label>
-
-      <input type="checkbox" id="no2" name="no">
-      <label for="no">No</label>
-    </div>
-
-    <legend>Do you have up-to-date first-aid certification?</legend>
-    <div class="push">
-      <input type="checkbox" id="yes3" name="yes">
-      <label for="yes">Yes</label>
-
-      <input type="checkbox" id="no3" name="no">
-      <label for="no">No</label>
-    </div>
-  </div>
-</fieldset>
-
-<fieldset>
-  <div>
-    <legend>Please let us know any comments or questions you may have.</legend>
-    <div>
-      <textarea id="text" name="mission" required></textarea>
-    </div>
-  </div>
-</fieldset>
-
-<fieldset>
-  <button type="submit">Apply</button>
-</fieldset>
-</form>
-
-<footer>© Tree Hugger International Organization</footer>
+  <footer>© Tree Hugger International Organization</footer>
 </div>
 </section>
 </body>
