@@ -42,7 +42,7 @@
 
             <div class="push">
               <label for="tshirt">T-shirt size</label>
-              <select placeholder="Select a t-shirt size" id="tshirt" name="tshirt">
+              <select id="tshirt" name="tshirt">
                 <option>Fitted: XS</option>
                 <option>Fitted: S</option>
                 <option>Fitted: M</option>
@@ -62,8 +62,8 @@
             </div>
 
             <div class="push">
-              <label for="phone number" class="not-bold">Phone number (optional)</label>
-              <input id="phone number" type="phone number" name="phone number" required>
+              <label for="tel" class="not-bold">Phone number (optional)</label>
+              <input id="tel" type="tel" name="tel" required>
             </div>
           </div>
         </fieldset>
@@ -103,7 +103,7 @@
 
             <div class="push">
               <label for="postal code" class="not-bold">Postal Code</label>
-              <input id="postal code" type="postal code" name="postal code" required>
+              <input id="text" type="text" name="text" required>
             </div>
           </div>
         </fieldset>
@@ -112,61 +112,61 @@
           <div>
             <legend>What activities are you interested in helping with?</legend>
             <div class="push">
-              <input type="radio" id="digging" name="digging">
+              <input type="checkbox" id="digging" name="digging">
               <label for="digging">Digging holes</label>
 
-              <input type="radio" id="dirty" name="dirty">
+              <input type="checkbox" id="dirty" name="dirty">
               <label for="dirty">Getting dirty</label>
 
-              <input type="radio" id="lifting" name="lifting">
+              <input type="checkbox" id="lifting" name="lifting">
               <label for="lifting">Lifting heavy objects</label>
 
-              <input type="radio" id="driving" name="driving">
+              <input type="checkbox" id="driving" name="driving">
               <label for="driving">Driving people</label>
 
-              <input type="radio" id="transporting" name="transporting">
+              <input type="checkbox" id="transporting" name="transporting">
               <label for="transporting">Transporting trees</label>
 
-              <input type="radio" id="photos" name="photos">
+              <input type="checkbox" id="photos" name="photos">
               <label for="photos">Taking photos</label>
 
-              <input type="radio" id="publishing" name="publishing">
+              <input type="checkbox" id="publishing" name="publishing">
               <label for="publishing">Online publishing</label>
 
-              <input type="radio" id="managing" name="managing">
+              <input type="checkbox" id="managing" name="managing">
               <label for="managing">Managing people</label>
             </div>
 
             <legend>Do you have any experience with the following?</legend>
               <div class="push">
-                <input type="radio" id="shovels" name="shovels">
+                <input type="checkbox" id="shovels" name="shovels">
                 <label for="shovels">Shovels</label>
 
-                <input type="radio" id="gps" name="gps">
+                <input type="checkbox" id="gps" name="gps">
                 <label for="gps">Hand-held GPS</label>
 
-                <input type="radio" id="writing" name="wrting">
+                <input type="checkbox" id="writing" name="wrting">
                 <label for="writing">Writing & blogging</label>
 
-                <input type="radio" id="photography" name="photography">
+                <input type="checkbox" id="photography" name="photography">
                 <label for="photography">Photography</label>
 
-                <input type="radio" id="climbing" name="climbing">
+                <input type="checkbox" id="climbing" name="climbing">
                 <label for="climbing">Trail & hill climbing</label>
 
-                <input type="radio" id="bush" name="bush">
+                <input type="checkbox" id="bush" name="bush">
                 <label for="bush">Bush craft</label>
 
-                <input type="radio" id="atv" name="atv">
+                <input type="checkbox" id="atv" name="atv">
                 <label for="atv">ATVs</label>
 
-                <input type="radio" id="identification" name="identification">
+                <input type="checkbox" id="identification" name="identification">
                 <label for="identification">Plant identification</label>
 
-                <input type="radio" id="planning" name="planning">
+                <input type="checkbox" id="planning" name="planning">
                 <label for="planning">Special event planning</label>
 
-                <input type="radio" id="speaking" name="speaking">
+                <input type="checkbox" id="speaking" name="speaking">
                 <label for="speaking">Speaking to groups</label>
               </div>
           </div>
@@ -176,28 +176,28 @@
           <div>
             <legend>Do you have a valid driver’s license?</legend>
             <div class="push">
-              <input type="radio" id="yes" name="yes">
+              <input type="checkbox" id="yes" name="yes">
               <label for="yes">Yes</label>
 
-              <input type="radio" id="no" name="no">
+              <input type="checkbox" id="no" name="no">
               <label for="no">No</label>
             </div>
 
             <legend>Do you have a pick-up truck you’d be willing to use?</legend>
             <div class="push">
-              <input type="radio" id="yes" name="yes">
+              <input type="checkbox" id="yes" name="yes">
               <label for="yes">Yes</label>
 
-              <input type="radio" id="no" name="no">
+              <input type="checkbox" id="no" name="no">
               <label for="no">No</label>
             </div>
 
             <legend>Do you have up-to-date first-aid certification?</legend>
             <div class="push">
-              <input type="radio" id="yes" name="yes">
+              <input type="checkbox" id="yes" name="yes">
               <label for="yes">Yes</label>
 
-              <input type="radio" id="no" name="no">
+              <input type="checkbox" id="no" name="no">
               <label for="no">No</label>
             </div>
           </div>
@@ -207,7 +207,6 @@
           <div>
             <legend>Please let us know any comments or questions you may have.</legend>
             <div>
-              <label for="text">Why do you want to go to Mars?</label>
               <textarea id="text" name="mission" required></textarea>
             </div>
           </div>
