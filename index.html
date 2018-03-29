@@ -11,34 +11,34 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header class="island push">
-    <h1 class="bold push-1-2">Apply to be a tree planter</h1>
-    <p class="mega push-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+  <header class="island-1-2 push-2">
+    <h1 class="bold push-1-2 pad-t-1-2">Apply to be a tree planter</h1>
+    <p class="mega push-1-2 pad-b-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
 
-  <section class="island-1-4">
+  <section class="island-1-2">
     <form method="POST" action="https://formspree.io/sand0274@algonquinlive.com">
       <fieldset>
-        <legend class="giga">Personal details</legend>
+        <legend class="giga bold push">Personal details</legend>
         <div class="grid">
-          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-1-2">
             <label for="name" class="not-bold">Full name</label>
             <input id="pname" name="name" required>
-            <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            <p class="push micro italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
           </div>
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <label for="name" class="not-bold">What should we call you?</label>
             <input id="name" name="name" required>
-            <p>What all your friends call you, e.g. “Liz”.</p>
+            <p class="push micro italic">What all your friends call you, e.g. “Liz”.</p>
           </div>
 
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <label for="date" class="not-bold">Date of birth</label>
             <input type="number" placeholder="yyyy-mm-dd" aria-label id="date" required>
           </div>
 
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <label for="tshirt">T-shirt size</label>
             <select id="tshirt" name="tshirt">
               <option value="">Select a t-shirt size</option>
@@ -55,12 +55,12 @@
             </select>
           </div>
 
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <label for="email" class="not-bold">Email</label>
             <input id="email" type="email" name="email" required>
           </div>
 
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <label for="tel" class="not-bold">Phone number (optional)</label>
             <input id="tel" type="tel" name="tel">
           </div>
@@ -72,17 +72,17 @@
       <fieldset>
         <legend>Address</legend>
         <div class="grid">
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <label for="address" class="not-bold">Street address</label>
             <input id="address" type="text" name="address" required>
           </div>
 
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <label for="city" class="not-bold">City</label>
             <input id="city" type="text" name="city" required>
           </div>
 
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <label for="province">Province</label>
             <input id="province" list="province-list" required>
             <datalist id="province-list">
@@ -103,7 +103,7 @@
             </datalist>
           </div>
 
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <label for="text" class="not-bold">Postal Code</label>
             <input id="text" type="text" name="text" required>
           </div>
@@ -113,9 +113,9 @@
       <hr>
 
       <fieldset>
-        <legend>What activities are you interested in helping with?</legend>
+        <legend class="mega">What activities are you interested in helping with?</legend>
         <div class="grid">
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <input type="checkbox" id="digging" name="digging">
             <label for="digging">Digging holes</label>
 
@@ -141,7 +141,7 @@
             <label for="managing">Managing people</label>
           </div>
 
-          <h2 class="push unit xs-1 s-1 m-1 l-1">Do you have any experience with the following?</h2>
+          <h2 class="push unit xs-1 s-1 m-1 l-1 milli pad-t-1-4">Do you have any experience with the following?</h2>
           <div class="push unit xs-1 s-1 m-1-2 l-1-2">
             <input type="checkbox" id="shovels" name="shovels">
             <label for="shovels">Shovels</label>
@@ -181,7 +181,7 @@
       <fieldset>
         <legend>Do you have a valid driver’s license?</legend>
         <div class="grid">
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-4">
             <input type="checkbox" id="yes1" name="yes">
             <label for="text">Yes</label>
 
@@ -189,8 +189,8 @@
             <label for="text">No</label>
           </div>
 
-          <h2 class="push unit xs-1 s-1 m-1 l-1">Do you have a pick-up truck you’d be willing to use?</h2>
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <h2 class="push unit xs-1 s-1 m-1 l-1 milli pad-t-1-2">Do you have a pick-up truck you’d be willing to use?</h2>
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2">
             <input type="checkbox" id="yes2" name="yes">
             <label for="text">Yes</label>
 
@@ -198,8 +198,8 @@
             <label for="text">No</label>
           </div>
 
-          <h2 class="push unit xs-1 s-1 m-1 l-1">Do you have up-to-date first-aid certification?</h2>
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+          <h2 class="push unit xs-1 s-1 m-1 l-1 milli pad-t-1-2">Do you have up-to-date first-aid certification?</h2>
+          <div class="push unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2">
             <input type="checkbox" id="yes3" name="yes">
             <label for="text">Yes</label>
 
